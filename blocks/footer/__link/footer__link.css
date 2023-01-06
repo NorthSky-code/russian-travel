@@ -1,0 +1,24 @@
+.footer__link {
+	font-family: 'Inter', Arial, sans-serif, 'Helvetica Neue';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	box-sizing: border-box;
+}
+
+.footer__link:hover {
+	opacity: 0.7;
+	transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 700px) {
+	.footer__link {
+		font-size: 24px;
+		line-height: 1;
+		text-rendering: optimizeLegibility;
+	}
+}

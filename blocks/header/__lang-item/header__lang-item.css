@@ -1,0 +1,13 @@
+.header__lang-item {
+	margin-right: 18px;
+	transition-duration: 0.4s;
+}
+
+.header__lang-item:hover {
+	opacity: 0.7;
+	transition-duration: 0.5s;
+}
+
+.header__lang-item:last-child {
+	margin-right: 0;
+}
