@@ -1,6 +1,7 @@
 .lead__caption {
 	margin: 0;
 	padding: 0;
+	padding-top: 8px;
 	font-family: 'Inter', Arial, sans-serif, 'Helvetica Neue';
 	font-style: normal;
 	font-weight: 400;
