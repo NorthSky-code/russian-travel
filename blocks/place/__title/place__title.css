@@ -9,7 +9,6 @@
 	color: #FFFFFF;
 	align-self: end;
 	text-rendering: optimizeLegibility;
-	box-sizing: border-box;
 }
 
 @media screen and (max-width: 850px) {
@@ -22,12 +21,14 @@
 
 @media screen and (max-width: 630px) {
 	.place__title {
-		padding: 0 16px;
+		padding: 0 24px;
+		max-width: 340px;
 	}
 }
 
 @media screen and (max-width: 450px) {
 	.place__title {
 		font-size: 32px;
+		padding: 0 16px;
 	}
 }
