@@ -1,20 +1,17 @@
-.cover__subtitle {
+.place__link {
 	margin: 0;
 	padding: 0;
-	max-width: 360px;
 	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.22;
-	text-align: center;
+	transition-duration: 0.4s;
 	color: #FFFFFF;
+	box-sizing: border-box;
 }
 
-@media screen and (max-width: 550px) {
-	.cover__subtitle {
-		font-size: 14px;
-		line-height: 1.14;
-		max-width: 288px;
-	}
+.place__link:hover {
+	opacity: 0.8;
+	transition-duration: 0.5s;
 }
